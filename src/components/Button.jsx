@@ -5,7 +5,8 @@ const Button = ({ className, outline, children }) => {
     <button
       className={classNames('button', className, {
         'button--outline': outline,
-      })}>
+      })}
+    >
       {children}
     </button>
   );
